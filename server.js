@@ -7,7 +7,20 @@ app.use(morgan('combined'));
 
 var articles = {
     
-    'article-one':{},
+    'article-one':{title: 'Article-One | Prerna Kaler', 
+  heading: 'article one',
+  date: 'Aug-13-2017',
+  content: `
+<p>           This is the first para of my third article.
+                This is the content for my first article. This is the content for my first article. This is the content for my first article.This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
+</p>
+<p>              This is the second para of my third article.
+                 This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.
+</p>
+<p>             This is the third para of my third article.
+                This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.
+</p>`},
+
     'article-two':{ title: 'Article-Two | Prerna Kaler', 
   heading: 'article two',
   date: 'Aug-20-2017',
