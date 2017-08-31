@@ -7,8 +7,8 @@ app.use(morgan('combined'));
 
 var articles = {
     
-    articleOne:{},
-    articelTwo:{ title: 'Article-Two | Prerna Kaler', 
+    'article-One':{},
+    'articel-Two':{ title: 'Article-Two | Prerna Kaler', 
   heading: 'article Two',
   date: 'Aug-26-2017',
   content: `
@@ -23,7 +23,7 @@ var articles = {
 </p>`
         
     },
-    articleThree: { title: 'Article-Three | Prerna Kaler', 
+    'article-Three': { title: 'Article-Three | Prerna Kaler', 
   heading: 'article three',
   date: 'Aug-26-2017',
   content: `
@@ -115,12 +115,13 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one',function(req, res)
+app.get('/:articleName',function(req, res)
 {
-   res.send(createTemplate(articleOne)); 
+    var articleName = req.params.articlName;
+   res.send(createTemplate(articles[articleName])); 
 });
 
-app.get('/article-two',function(req,res)
+/*app.get('/article-two',function(req,res)
 {
      res.sendFile(path.join(__dirname, 'ui', 'article-two.html')); 
 });
@@ -128,7 +129,7 @@ app.get('/article-two',function(req,res)
 app.get('/article-three',function(req,res)
 {
      res.sendFile(path.join(__dirname, 'ui', 'article-three.html')); 
-});
+});*/
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
