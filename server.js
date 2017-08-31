@@ -25,7 +25,7 @@ var articles = {
     },
     'article-three': { title: 'Article-Three | Prerna Kaler', 
   heading: 'article three',
-  date: 'Aug-26-2017',
+  date: 'Aug-23-2017',
   content: `
 <p>           This is the first para of my third article.
                 This is the content for my first article. This is the content for my first article. This is the content for my first article.This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
