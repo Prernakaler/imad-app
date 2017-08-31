@@ -9,8 +9,8 @@ var articles = {
     
     'article-one':{},
     'article-two':{ title: 'Article-Two | Prerna Kaler', 
-  heading: 'article Two',
-  date: 'Aug-26-2017',
+  heading: 'article two',
+  date: 'Aug-20-2017',
   content: `
 <p>           This is the first para of my second article.
                 This is the content for my second article. This is the content for my first article. This is the content for my first article.This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
@@ -20,9 +20,7 @@ var articles = {
 </p>
 <p>             This is the third para of my second article.
                 This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.
-</p>`
-        
-    },
+</p>`},
     'article-three': { title: 'Article-Three | Prerna Kaler', 
   heading: 'article three',
   date: 'Aug-23-2017',
