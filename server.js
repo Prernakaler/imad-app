@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 var articles = {
     
     'article-one':{},
-    'articel-two':{ title: 'Article-Two | Prerna Kaler', 
+    'article-two':{ title: 'Article-Two | Prerna Kaler', 
   heading: 'article Two',
   date: 'Aug-26-2017',
   content: `
