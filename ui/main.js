@@ -2,7 +2,7 @@
 var button = document.getElementbyId('counter');
 
 button.onclick =function(){
-    // make a request to the counter enpoint
+    // create a request object
     var request = new XMLHttpRequest();
     
     //capture and store it in a variable
@@ -19,4 +19,6 @@ button.onclick =function(){
     };
     
     //make the request
+    request.open('GET','http://ps00022.imad.hasura-app.io/counter',true);
+    request.send(null);
 };
