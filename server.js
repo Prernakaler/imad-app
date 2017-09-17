@@ -58,23 +58,7 @@ var articles = {
 </p>`},
 };
 
-var articleOne = {
-  title: 'Article-one | Prerna Kaler', 
-  heading: 'article one',
-  date: 'Aug-16-2017',
-  content: `
-<p>           This is the first para of my first article.
-                This is the content for my first article. This is the content for my first article. This is the content for my first article.This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
-</p>
-<p>              This is the second para of my first article.
-                 This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.
-</p>
-<p>             This is the third para of my first article.
-                This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.This is the content for my first article.
-</p>`
-                
-    
-};
+
 function createTemplate (data) {
     
     var title =data.title;
